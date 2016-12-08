@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cdc8cc;
+  font-family: 'Lato', sans-serif;
+}
+
+.App {
+  text-align: left;
+}
+
+.content-frame {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content {
+  background-color: #232931;
+}
+
+.users, .groups {
+  width: 48%;
+  float: left;
+}
+
+.users {
+  margin-right: 2%;
+}
+
+.user-list, .group-list {
+  min-height: 200px;
+}
+
+.toolbar {
+  padding: 0 0 25px 0;
+}
+
+.user-card {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  background-color: #1f2229;
+  color: white;
+  margin: 0 2px 2px 0;
+  display: inline-block;
+}
+
+.card-names {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-names span {
+  display: block;
+}
+
+.card-btns {
+  text-align: right;
+
+}
+
+button {
+  background-color: #009a92;
+  border: none;
+  color: white;
+  margin-right: 2px;
+}
+
+button:hover {
+  background-color: #575757;
+  color: white;
+}
+
+.detail-view {
+  margin: 50px 0 0 0;
+  background-color: #616161;
+  color: #c6c6c6;
+  padding: 10px;
+  min-height: 100px;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.detail-view h4 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.group-detail .user-card {
+  height: 80px;
+  background-color: #ad394f;
+}
+
+.group-card {
+  position: relative;
+  width: 100%;
+  background-color: #ad394f;
+  margin: 0 0 2px 0;
+  color: white;
+}
+
+.group-card .group-name {
+  padding: 10px;
+}
+
+.group-card small {
+  display: block;
+  color: #c6c6c6;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.group-card .group-btns {
+  position: absolute;
+  text-align: right;
+  right: 2px;
+  top: 2px;
+}
+
+
