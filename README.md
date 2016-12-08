@@ -7,6 +7,8 @@ is comically-themed with data from [Game of Thrones](https://en.wikipedia.org/wi
  Over time I will build in new features as I focus on different React development techniques, tooling, and best practices.
 This is very much a work in progress, and has a few bumps and bruises. Pull requests welcome!
 
+**LIVE DEMO:** [https://radiovisual.github.io/react-redux-user-management-demo/](https://radiovisual.github.io/react-redux-user-management-demo/)
+
 ![](media/screenshot.jpg)
 
 ## Features
