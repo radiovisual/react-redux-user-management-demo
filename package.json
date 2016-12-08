@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "gh-pages": "^0.12.0",
     "react-scripts": "0.8.1"
   },
+  "homepage": "http://radiovisual.github.io/react-redux-user-management-demo",
   "dependencies": {
     "lodash": "^4.17.2",
     "puid": "^1.0.5",
@@ -24,6 +26,7 @@
     "zeropad": "^1.1.0"
   },
   "scripts": {
+    "deploy": "npm run build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
