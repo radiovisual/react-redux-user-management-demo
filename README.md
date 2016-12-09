@@ -28,7 +28,7 @@ This is very much a work in progress, and has a few [bumps and bruises](https://
 
 Everything in this app is controlled with the buttons you see on the interface (the `X` button will remove a user, a group, or a user from a group,
 and the `View` button will show the user or group profile). The only exception to this is that you add users to a group by dragging and dropping the user
-into the target group. If the member is not already a part of that group, he or she will be added.
+into the target group. If the member is not already a part of that group, he or she will be added to the group.
 ## Tools
 
 Here are a few of the highlighted technologies used in this project, as well as a few anticipated technologies
@@ -46,8 +46,8 @@ that will work their way into this project in the future:
 ## The Future
 
 I spent some time designing a more interesting Interface, as well as some interesting features like a
-console messaging system (which could be implemented with some redux middleware), and I eventually want
-to make the entire inteface support drag and drop behaviors.
+console messaging system (which could be implemented with some Redux middleware), and I eventually want
+to make the entire interface support drag and drop behaviors.
 
 ![](media/screenshot-future.jpg)
 
