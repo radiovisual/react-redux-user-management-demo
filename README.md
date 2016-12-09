@@ -9,7 +9,7 @@ This is very much a work in progress, and has a few [bumps and bruises](https://
 
 **LIVE DEMO:** [https://radiovisual.github.io/react-redux-user-management-demo/](https://radiovisual.github.io/react-redux-user-management-demo/)
 
-![](media/screenshot.jpg)
+![](media/demo.gif)
 
 ## Features
 
